@@ -1,0 +1,107 @@
+h1{
+   font-family:Verdana,sans-serif;
+   color: grey;
+   font-size:14px;
+}
+p{
+   font-family:Verdana,sans-serif;
+   color: grey;
+   font-size:12px;
+}
+
+/**** Social block starts here ****/
+#social {
+    font-size: 0;
+    padding: 0;
+    margin:0;
+    width: 255px;
+    background-color: lightgrey; /* You better remove it to make block's background to become transparent */
+}
+
+#social li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;  /* it changes the icon size */
+    color:white;  /* it changes the icon color */
+    border-right: 1px dotted whitesmoke; /* vertical stripes between the buttons */
+}
+
+li#github.icon {border-right:none !important;} /* it removes the right border for the last button */
+
+#social div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center; /* Centers the icons horizontally */
+}
+
+/* Center the icons vertically */
+#ico {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+/* Background colors that show up on hover */
+#twitter:hover {background: cadetblue;}
+#rss:hover {background: coral;}
+#email:hover {background: #eedf1e;}
+#github:hover {background: steelblue;}
+#google:hover {background: crimson;}
+
+
+
+
+/**** Email field effect ****/
+
+.email-sub {
+    display: none;
+    height: 50px;
+    width: 255px;
+    background-color: #eedf1e;
+}
+
+.yellow-back{background-color: #eedf1e;}
+
+button {
+    float: right;
+    margin: 5px 10px 0 0;
+    border: 1px dashed grey;
+    border-radius: 100%;
+    background: #eedf1e url();
+    height: 40px;
+    width: 40px;
+    font-size: 12px;
+    color: grey;
+
+}
+button:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+input[type=email] {
+    float:left;
+    margin: 10px 0 0 15px;
+    height: 24px;
+    width: 168px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #eedf1e;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    font-size: 12px;
+}
+
+input:focus {
+    outline:none;
+    background-color: #f7ee78;
+    color:grey;
+}
+
+
+
+
